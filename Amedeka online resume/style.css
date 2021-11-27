@@ -46,7 +46,7 @@ body{
     border-radius:30px;
 }
 .scroll-bar{
-    animation:mover 1s infinite alternate;
+    animation: mover 1s infinite alternate;
 }
 @keyframes mover{
     0%{transform: translateY();}
@@ -60,19 +60,19 @@ body{
     height: 400px;
 }
 .nav-bar{
-    top:0;
+    top: 0;
     position: sticky;
     z-index: 2;
 }
 .navbar{
-    background-color: #000;
+    background-color: #fff;
 }
 .navbar-brand img{
     height: 50px;
 }
 .nav-bar .farbars{
     font-size: 35px;
-    color:#fff;
+    color:#000;
 }
 .navbar-toggler{
     outline: none !important;
@@ -82,7 +82,7 @@ body{
     text-align: right;
 }
 .nav-link{
-    color:#fff ! important;
+    color:#000 ! important;
 }
 .skills-bar p{
     margin-bottom:6px;
